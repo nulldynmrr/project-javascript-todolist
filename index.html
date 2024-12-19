@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Social Media App</h3>
+    <div class="container">
+      <div class="left">
+        <form id="form">
+          <h5>Write ypur post here</h5>
+          <textarea
+            name="post"
+            id="input"
+            cols="30"
+            rows="10"
+            placeholder="Write your massage"
+          ></textarea>
+          <br />
+          <p id="msg"></p>
+          <button type="submit">Post</button>
+        </form>
+      </div>
+      <div class="right">
+        <h5>Your post here</h5>
+        <div id="posts"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
